@@ -1,0 +1,20 @@
+﻿@using GestorPacientes.Core.Application.ViewModels.Citas;
+@model SaveCitaViewModel;
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="row">
+    <div class="col-6 offset-3">
+        <div class="card">
+            <div class="card-header bg-dark text-light">Esta seguro que desea eliminar esta cita?</div>
+            <div class="card-body">
+                <form asp-controller="Cita" asp-action="DeletePost">
+                    <input asp-for="Id" type="hidden">
+                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                    <a asp-controller="Cita" asp-action="Index" class="btn btn-warning">Cancelar</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

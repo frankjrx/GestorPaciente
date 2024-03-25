@@ -1,0 +1,35 @@
+﻿@model List<GestorPacientes.Core.Application.ViewModels.Prueba.PruebaViewModel>
+
+<div class="container-fluid">
+	<div class="row m-3">
+		<div class="col-3 offset-9">
+			<a asp-action="Create" asp-controller="Prueba" class="btn btn-success">Crear Prueba</a>
+		</div>
+	</div>
+
+	<div class="row">
+
+		@if (Model==null || Model.Count == 0)
+		{
+			<h4>No hay pruebas</h4>
+		}
+
+		@foreach(var prueba in Model)
+		{
+			<div class="col-4 mt-3">
+				<div class="card">
+					<div class="card">
+						<img class="card-img-top" height="200" width="200" src="https://png.pngtree.com/png-clipart/20230823/original/pngtree-laboratory-test-color-icon-picture-image_8265728.png"></img>
+						<div class="card-body">
+							<h4>@prueba.Nombre</h4>
+							<div class="btn-group">
+								<a asp-action="Edit" asp-controller="Prueba" asp-route-id="@prueba.Id" class="btn btn-info">Editar</a>
+								<a asp-action="Delete" asp-controller="Prueba" asp-route-id="@prueba.Id" class="btn btn-danger">Eliminar</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		}
+	</div>
+</div>

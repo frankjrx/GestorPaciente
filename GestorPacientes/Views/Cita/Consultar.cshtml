@@ -1,0 +1,30 @@
+﻿@model GestorPacientes.Core.Application.ViewModels.Resultado.SaveResultadoViewModel
+
+
+<div class="row">
+<div class="col-6 offset-3">
+    <div class="card">
+        <div class="card-header bg-dark text-light">
+            Consultar
+        </div>
+        <div class="card-body">
+            <form asp-controller="Cita" asp-action="Consultar" >
+                <input type="hidden" asp-for="Id">
+
+                <input type="hidden" asp-for="CitaId">
+
+                <input type="hidden" asp-for="PacienteId">
+
+                <div class="form-group m-3">
+                    <label>Pruebas de Laboratorio Disponibles(Puede elgir varias dejando presionado el Ctrl):</label>
+                    <select asp-for="PrueabaListId" asp-items="@(new SelectList(Model.pruebas, "Id", "Nombre"))" multiple class="form-control">
+                    </select>
+                </div>
+
+                <button class="btn btn-primary float-end" type="submit">Guardar</button>
+                <a asp-controller="Cita" asp-action="Index" class="btn btn-warning">Volver atras</a>
+            </form>
+        </div>
+    </div>
+</div>
+</div>

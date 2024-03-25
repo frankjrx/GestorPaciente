@@ -1,0 +1,15 @@
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\bin\Debug\net8.0\GestorPacientes.Core.Application.deps.json
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\bin\Debug\net8.0\GestorPacientes.Core.Application.dll
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\bin\Debug\net8.0\GestorPacientes.Core.Application.pdb
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\bin\Debug\net8.0\GestorPacientes.Core.Domain.dll
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\bin\Debug\net8.0\GestorPacientes.Core.Domain.pdb
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\obj\Debug\net8.0\GestorPacientes.Core.Application.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\obj\Debug\net8.0\GestorPacientes.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\obj\Debug\net8.0\GestorPacientes.Core.Application.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\obj\Debug\net8.0\GestorPacientes.Core.Application.AssemblyInfo.cs
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\obj\Debug\net8.0\GestorPacientes.Core.Application.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\obj\Debug\net8.0\GestorPacientes.Core.Application.csproj.CopyComplete
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\obj\Debug\net8.0\GestorPacientes.Core.Application.dll
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\obj\Debug\net8.0\refint\GestorPacientes.Core.Application.dll
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\obj\Debug\net8.0\GestorPacientes.Core.Application.pdb
+C:\Users\Dell\Desktop\C# VISUAL\MVC\GestorPacientes\Application\obj\Debug\net8.0\ref\GestorPacientes.Core.Application.dll

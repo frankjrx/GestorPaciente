@@ -1,0 +1,365 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GestorPacientes.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GestorPacientes.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Medicos\\10\\225e4a99-d9f8-46c9-a871-48e92af92abf.jpg",
+      "PackagePath": "staticwebassets\\Images\\Medicos\\10\\225e4a99-d9f8-46c9-a871-48e92af92abf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Medicos\\11\\f4470992-c27d-4805-a110-d15656b03aaa.jpg",
+      "PackagePath": "staticwebassets\\Images\\Medicos\\11\\f4470992-c27d-4805-a110-d15656b03aaa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Medicos\\12\\37493dbb-8750-4d7b-b498-7bc80abafcef.png",
+      "PackagePath": "staticwebassets\\Images\\Medicos\\12\\37493dbb-8750-4d7b-b498-7bc80abafcef.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Medicos\\13\\b1d51bdd-055c-43a5-a039-f3048040e279.png",
+      "PackagePath": "staticwebassets\\Images\\Medicos\\13\\b1d51bdd-055c-43a5-a039-f3048040e279.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Medicos\\1\\4e3848a5-e25d-42c9-ac4d-97d61aff4bcd.png",
+      "PackagePath": "staticwebassets\\Images\\Medicos\\1\\4e3848a5-e25d-42c9-ac4d-97d61aff4bcd.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Medicos\\1\\e3da4f95-8b6c-404a-8821-1cf2f58bab40.png",
+      "PackagePath": "staticwebassets\\Images\\Medicos\\1\\e3da4f95-8b6c-404a-8821-1cf2f58bab40.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Medicos\\2\\23d032c4-38b0-471d-8415-9875fd23f2b7.png",
+      "PackagePath": "staticwebassets\\Images\\Medicos\\2\\23d032c4-38b0-471d-8415-9875fd23f2b7.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Medicos\\2\\5772724f-4d6f-4a74-bd33-f1cd8caee02a.png",
+      "PackagePath": "staticwebassets\\Images\\Medicos\\2\\5772724f-4d6f-4a74-bd33-f1cd8caee02a.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Medicos\\3\\45ae636b-4825-4e22-8044-b556440e0d4e.png",
+      "PackagePath": "staticwebassets\\Images\\Medicos\\3\\45ae636b-4825-4e22-8044-b556440e0d4e.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Medicos\\3\\5fe5d770-8bb4-4d84-9b76-cfbea4ccc871.png",
+      "PackagePath": "staticwebassets\\Images\\Medicos\\3\\5fe5d770-8bb4-4d84-9b76-cfbea4ccc871.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Medicos\\4\\e9bcf6ce-e3d0-4ee1-899d-4c6143cdcb5b.png",
+      "PackagePath": "staticwebassets\\Images\\Medicos\\4\\e9bcf6ce-e3d0-4ee1-899d-4c6143cdcb5b.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Medicos\\8\\1e4e833b-98f2-4eeb-810b-9ab2b81070ca.jpg",
+      "PackagePath": "staticwebassets\\Images\\Medicos\\8\\1e4e833b-98f2-4eeb-810b-9ab2b81070ca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Medicos\\9\\7a9c4931-c0e3-473c-a842-df24c82927a2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Medicos\\9\\7a9c4931-c0e3-473c-a842-df24c82927a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Pacientes\\10\\3645a4a6-f033-46ac-9e57-596fc6e005b8.png",
+      "PackagePath": "staticwebassets\\Images\\Pacientes\\10\\3645a4a6-f033-46ac-9e57-596fc6e005b8.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Pacientes\\11\\7157f1bc-12c1-4081-92f9-fe2f82a5ec15.png",
+      "PackagePath": "staticwebassets\\Images\\Pacientes\\11\\7157f1bc-12c1-4081-92f9-fe2f82a5ec15.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Pacientes\\1\\37d4aee2-08ec-452c-9c54-6f8e5568d15f.png",
+      "PackagePath": "staticwebassets\\Images\\Pacientes\\1\\37d4aee2-08ec-452c-9c54-6f8e5568d15f.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Pacientes\\1\\eb07d4da-fc50-43ad-9909-42bc908906af.png",
+      "PackagePath": "staticwebassets\\Images\\Pacientes\\1\\eb07d4da-fc50-43ad-9909-42bc908906af.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Pacientes\\2\\78a5f10e-1b00-4128-954c-a9ccdbe80be1.png",
+      "PackagePath": "staticwebassets\\Images\\Pacientes\\2\\78a5f10e-1b00-4128-954c-a9ccdbe80be1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Pacientes\\2\\954e2752-1f7c-4fb5-8f52-27ed9a963971.png",
+      "PackagePath": "staticwebassets\\Images\\Pacientes\\2\\954e2752-1f7c-4fb5-8f52-27ed9a963971.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Pacientes\\3\\79b12ed5-316f-41ac-a8b7-85050f83d87c.png",
+      "PackagePath": "staticwebassets\\Images\\Pacientes\\3\\79b12ed5-316f-41ac-a8b7-85050f83d87c.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Pacientes\\5\\b64b4463-33f6-4d64-b731-8cedee35d4f8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Pacientes\\5\\b64b4463-33f6-4d64-b731-8cedee35d4f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Pacientes\\6\\ef22def8-74ef-4f5c-a2de-3759d7cadc8e.jpg",
+      "PackagePath": "staticwebassets\\Images\\Pacientes\\6\\ef22def8-74ef-4f5c-a2de-3759d7cadc8e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Pacientes\\7\\ef01c414-a0c6-4b16-9802-ec63c3e68db7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Pacientes\\7\\ef01c414-a0c6-4b16-9802-ec63c3e68db7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Pacientes\\8\\914a05bf-dde5-44bc-a3ef-d1fb10519150.png",
+      "PackagePath": "staticwebassets\\Images\\Pacientes\\8\\914a05bf-dde5-44bc-a3ef-d1fb10519150.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\Images\\Pacientes\\9\\609420fd-8ae7-4756-821f-ffda59da4c91.png",
+      "PackagePath": "staticwebassets\\Images\\Pacientes\\9\\609420fd-8ae7-4756-821f-ffda59da4c91.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C# VISUAL\\MVC\\GestorPacientes\\GestorPacientes\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GestorPacientes.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GestorPacientes.props",
+      "PackagePath": "build\\GestorPacientes.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GestorPacientes.props",
+      "PackagePath": "buildMultiTargeting\\GestorPacientes.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GestorPacientes.props",
+      "PackagePath": "buildTransitive\\GestorPacientes.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

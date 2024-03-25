@@ -1,0 +1,63 @@
+﻿@model List<GestorPacientes.Core.Application.ViewModels.Citas.CitaViewModel>
+
+
+<div class="row">
+	<div class="col-3 offset-9">
+		<a class="btn btn-success" asp-controller="Cita" asp-action="Create">Crear Cita</a>
+	</div>
+</div>
+@if (Model.Count == 0 || Model == null)
+{
+	<h3>No hay citas </h3>
+}
+else
+{
+	<div class="row">
+		<div class="container-fluid">
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>Paciente</th>
+						<th>Medico</th>
+						<th>Fecha</th>
+						<th>Hora</th>
+						<th>Estado</th>
+						<th></th>
+						<th></th>
+					</tr>
+				</thead>
+
+				<tbody>
+					@foreach (var cita in Model)
+					{
+						<tr>
+							<td>@cita.PacienteNombre</td>
+							<td>@cita.MedicoNombre</td>
+							<td>@cita.Fecha</td>
+							<td>@cita.Hora</td>
+							<td>@cita.Estado</td>
+
+							<td>
+								<form asp-controller="Cita" asp-action="@(cita.Estado == "Pendiente de Consulta" ? "Consultar" : (cita.Estado == "Pendiente de Resultados" ? "PendienteResultados" : "VerResultados"))" method="get">
+									<input type="hidden" asp-for="@cita.Id">
+									<input type="hidden" asp-for="@cita.PacienteId">
+									
+									<button type="submit" class="btn btn-primary"> @(cita.Estado == "Pendiente de Consulta" ? "Consultar" : (cita.Estado == "Pendiente de Resultados" ? "Consultar Resultados" : "Ver Resultados")) </button>
+								</form>
+							</td>
+
+							<td>
+								<a asp-controller="Cita" asp-action="Delete" class="btn btn-danger" asp-route-id="@cita.Id">Eliminar</a>
+							</td>
+						</tr>
+
+						
+					}
+				</tbody>
+			</table>
+		</div>
+	</div>
+}
+	
+
+					

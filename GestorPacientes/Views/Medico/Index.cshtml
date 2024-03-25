@@ -1,0 +1,43 @@
+﻿@model List<GestorPacientes.Core.Application.ViewModels.Medicos.MedicoViewModel>;
+@{
+    ViewData["Title"] = "Medicos";
+}
+
+<div class="container-fluid">
+    <div class="row m-3">
+        <div class="col-3 offset-9">
+            <a asp-action="Create" asp-controller="Medico" class="btn btn-success">Crear Medico</a>
+        </div>
+    </div>
+
+    <div class="row">
+        @if (Model == null || Model.Count == 0)
+        {
+            <h4>No hay medicos</h4>
+        }
+
+        @foreach(var medico in Model)
+        {
+            <div class="col-4 mt-3">
+                <div class="card">
+                    <img class="card-img-top" src="@medico.imgUrl" height="200">
+                    <div class="card-body">
+                        <h4>@($"{medico.Nombre} {medico.Apellido}")</h4>
+                        <p>
+                            Correo: @medico.Correo
+                            <br>
+                            Cedula: @medico.Cedula
+                            <br>
+                            Telefono: @medico.Phone
+                        </p>
+
+                        <div class="btn-group">
+                            <a asp-controller="Medico" asp-action="Edit" asp-route-id="@medico.Id" class="btn btn-info">Editar</a>
+                            <a asp-controller="Medico" asp-action="Delete" asp-route-id="@medico.Id" class="btn btn-danger">Eliminar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

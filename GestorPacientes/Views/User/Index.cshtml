@@ -1,0 +1,54 @@
+﻿@model List<GestorPacientes.Core.Application.ViewModels.Usuario.UsuarioViewModel>
+@{
+    ViewData["Title"] = "Usuarios";
+}
+
+<div class="container-fluid">
+    <div class="row m-3">
+        <div class="col-3 offset-9">
+            <a asp-controller="User" asp-action="Register" class="btn btn-success">Crear Usuario</a>
+        </div>
+    </div>
+ 
+    <div class="row">
+        @if (Model == null || Model.Count == 0)
+        {
+            <h3>No hay usuarios</h3>
+        }
+
+        @foreach(var user in Model)
+        {
+            if (user.Estado == "activo")
+            {
+                <div class="col-4 mt-3">
+                    <div class="card">
+                        <img class="card-img-top" src="https://cdn.vectorstock.com/i/preview-1x/71/90/blank-avatar-photo-icon-design-vector-30257190.jpg" height="200" width="200">
+                        <div class="card-body">
+                            <h4>@user.UserName</h4>
+                            <p>
+                                Nombre: @user.Nombre
+                                <br>
+                                Apellido: @user.Apellido
+                                <br>
+                                Correo: @user.Correo
+                                <br>
+                            </p>
+
+                            <div class="btn-group">
+                                <a asp-controller="User" asp-action="Edit" asp-route-id="@user.Id" class="btn btn-info">Editar</a>
+                                <a asp-controller="User" asp-action="Delete" asp-route-id="@user.Id" class="btn btn-danger">Eliminar</a>
+                            </div>
+
+                            <div class="float-end">
+                                <h4><span class="badge bg-secondary">@user.TipoUsuario</span></h4>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            }
+           
+        }
+    </div>
+</div>
+

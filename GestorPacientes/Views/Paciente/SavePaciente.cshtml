@@ -1,0 +1,94 @@
+﻿@model GestorPacientes.Core.Application.ViewModels.Pacientes.SavePacienteVIewModel
+@{
+    bool CreateMode = Model.Id == 0 ? true : false;
+    ViewData["Title"] = "Save Paciente";
+}
+
+<div class="row">
+    <div class="col-6 offset-3">
+        <div class="card">
+            <div class="card-header bg-dark text-light">
+                @(CreateMode ? "Registrar Paciente" : $"Editando Paciente {Model.Nombre}")
+            </div>
+            <div class="card-body">
+                <form asp-controller="Paciente" asp-action="@(CreateMode? "Create" : "Edit")" enctype="multipart/form-data">
+                    <input type="hidden" asp-for="Id">
+
+                    <div class="mb-3">
+                        <label asp-for="Nombre" class="form-label">Nombre:</label>
+                        <input asp-for="Nombre" class="form-control">
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Apellido" class="form-label">Apelido:</label>
+                        <input asp-for="Apellido" class="form-control">
+                        <span asp-validation-for="Apellido" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Direccion" class="form-label">dirección:</label>
+                        <input asp-for="Direccion" class="form-control">
+                        <span asp-validation-for="Direccion" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Cedula" class="form-label">Cedula:</label>
+                        <input asp-for="Cedula" class="form-control">
+                        <span asp-validation-for="Cedula" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="fnacimiento" class="form-label">fecha de nacimiento:</label>
+                        <input asp-for="fnacimiento" class="form-control">
+                        <span asp-validation-for="fnacimiento" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Alergias" class="form-label">Alergias:</label>
+                        <input asp-for="Alergias" class="form-control">
+                        <span asp-validation-for="Alergias" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Telefono" class="form-label">Telefono:</label>
+                        <input asp-for="Telefono" class="form-control">
+                        <span asp-validation-for="Telefono" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label class="form-label">¿Es fumador?</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" asp-for="Fumador" value="true">
+                            <label class="form-check-label">Sí</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" asp-for="Fumador" value="false">
+                            <label class="form-check-label">No</label>
+                        </div>
+                        <span asp-validation-for="Fumador" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label asp-for="Foto" class="form-label">Seleccione una imagen:</label>
+                        @if(CreateMode)
+                        {
+                            <input asp-for="Foto" class="form-control" required>
+                        }else
+                        {
+                            <input asp-for="Foto" class="form-control" />
+                        }
+                        
+                    </div>
+
+
+
+                    <button class="btn btn-primary float-end" type="submit">Guardar</button>
+                    <a asp-controller="Paciente" asp-action="Index" class="btn btn-warning">Volver atras</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

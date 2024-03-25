@@ -1,0 +1,54 @@
+﻿@model List<GestorPacientes.Core.Application.ViewModels.Resultado.ResultadoViewModel>
+
+
+
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-3">
+				<form class="d-flex" asp-controller="Resultado" asp-action="Index">
+					<input name="SearchString" type="search" placeholder="Buscar por cedula" class="form-control">
+					<button type="submit" class="btn btn-dark btn-sm">Buscar</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<h3>Resultados Pendientes</h3>
+
+			<div class="container-fluid">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>Prueba</th>
+							<th>Nombre</th>
+							<th>Apellido</th>
+							<th>Cedula</th>
+							<th></th>
+						</tr>
+					</thead>
+
+					<tbody>
+						@foreach (var resultado in Model)
+						{
+							<tr>
+								<td>@resultado.PruebaNombre</td>
+								<td>@resultado.PacienteNombre</td>
+								<td>@resultado.PacienteApellido</td>
+								<td>@resultado.PacienteCedula</td>
+
+								<td>
+									<a asp-controller="Resultado" asp-action="Reportar" asp-route-id = "@resultado.Id" class="btn btn-primary">Reportar</a>
+								</td>
+							</tr>
+
+							
+						}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+

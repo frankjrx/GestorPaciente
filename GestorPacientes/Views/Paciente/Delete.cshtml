@@ -1,0 +1,20 @@
+﻿@using GestorPacientes.Core.Application.ViewModels.Pacientes;
+@model SavePacienteVIewModel;
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="row">
+    <div class="col-6 offset-3">
+        <div class="card">
+            <div class="card-header bg-dark text-light">Esta seguro que desea eliminar este Usuario?</div>
+            <div class="card-body">
+                <form asp-controller="Paciente" asp-action="DeletePost">
+                    <input asp-for="Id" type="hidden">
+                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                    <a asp-controller="Paciente" asp-action="Index" class="btn btn-warning">Cancelar</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

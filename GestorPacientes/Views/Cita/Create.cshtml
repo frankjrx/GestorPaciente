@@ -1,0 +1,56 @@
+﻿@model GestorPacientes.Core.Application.ViewModels.Citas.SaveCitaViewModel
+
+
+<div class="row mt-3">
+	<div class="col-6 offset-3">
+		<div class="card">
+			<div class="card-header bg-dark text-light">
+				Agendar cita
+			</div>
+
+			<div class="card-body">
+				<form asp-controller="Cita" asp-action="Create" method="post">
+					<input type="hidden" asp-for="Id">
+
+					<div class="mb-3">
+						<label asp-for="MedicoId" class="form-label">Medico</label>
+						<select asp-for="MedicoId" class="form-select" asp-items="@(new SelectList(Model.medicos,"Id","Nombre"))">
+							<option value="0">Seleccione una opcion</option>
+						</select>
+						<span asp-validation-for="MedicoId" class="text-danger"></span>
+					</div>
+
+					<div class="mb-3">
+						<label asp-for="PacienteId" class="form-label">Paciente</label>
+						<select asp-for="PacienteId" class="form-select" asp-items="@(new SelectList(Model.pacientes,"Id","Nombre"))">
+							<option value="0">Seleccione una opcion</option>
+						</select>
+						<span asp-validation-for="PacienteId" class="text-danger"></span>
+					</div>
+
+					<div class="mb-3">
+						<label asp-for="Fecha" class="form-label">Fecha</label>
+						<input asp-for="Fecha" class="form-control">
+						<span asp-validation-for="Fecha" class="text-danger"></span>
+					</div>
+
+					<div class="mb-3">
+						<label asp-for="Hora" class="form-label">Hora</label>
+						<input asp-for="Hora" class="form-control">
+						<span asp-validation-for="Hora" class="text-danger"></span>
+					</div>
+
+					<div class="mb-3">
+						<label asp-for="Causa" class="form-label">Causa:</label>
+						<input asp-for="Causa" class="form-control">
+						<span asp-validation-for="Causa" class="text-danger"></span>
+					</div>
+
+					<button type="submit" class="btn btn-primary">Guardar</button>
+					<a asp-controller="Cita" asp-action="Index" class="btn btn-warning">Volver atras</a>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,26 @@
+﻿@model List<GestorPacientes.Core.Application.ViewModels.Resultado.ResultadoViewModel>
+
+<div class="row m-3">
+	<div class="col-8 offset-2">
+		<div class="card">
+			<div class="card-header bg-dark text-light">
+				Resultados del paciente
+			</div>
+
+			<div class="card-body">
+				@foreach(var resultado in Model)
+				{
+					<div class="card mb-3">
+						<div class="card-body">
+							<h4>@resultado.PruebaNombre</h4>
+							<p>@resultado.estado</p>
+						</div>
+					</div>
+				}
+
+				<a asp-controller="Cita" asp-action="Completar" class="btn btn-primary" asp-route-id="@ViewBag.CitaId">Completar</a>
+				<a asp-controller="Cita" asp-action="Index" class="btn btn-warning">Cerrar resultado</a>
+			</div>
+		</div>
+	</div>
+</div>

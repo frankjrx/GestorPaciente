@@ -1,0 +1,27 @@
+﻿@model GestorPacientes.Core.Application.ViewModels.Resultado.SaveResultadoViewModel
+
+<div class="row m-3">
+	<div class="col-8 offset-2">
+		<div class="card">
+			<div class="card-header bg-dark text-light">
+				Reportar
+			</div>
+
+			<div class="card-body">
+				<form asp-controller="Resultado" asp-action="Reportar" method="post">
+					<input type="hidden" asp-for="Id">
+					<input asp-for="PacienteId" type="hidden">
+					<input asp-for="CitaId" type="hidden">
+					<input asp-for="PruebaId" type="hidden">
+
+					<div class="form-floating mb-3">
+						<textarea asp-for="result" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+						<label for="floatingTextarea">Resultado</label>
+					</div>
+
+					<button type="submit" class="btn btn-primary">Reportar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
